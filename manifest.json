@@ -1,0 +1,200 @@
+{
+  "source_base_path": "C:/Users/unaia/Desktop/Ikastola/2.Erronka/SUPERMERKATUA/Dokumentazioa",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.ESTADISTIKAK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.ESTADISTIKAK.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA.ESTADISTIKAK",
+      "Summary": "<p sourcefile=\"api/SUPERMERKATUA.ESTADISTIKAK.yml\" sourcestartlinenumber=\"1\">Salmenten datuak aztertu eta estatistikak (batez bestekoak, maximoak, minimoak) kalkulatzen dituen klasea.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.FitxategiaKargatu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.FitxategiaKargatu.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA.FitxategiaKargatu",
+      "Summary": "<p sourcefile=\"api/SUPERMERKATUA.FitxategiaKargatu.yml\" sourcestartlinenumber=\"1\">Aplikazioaren hasierako datuak kanpoko fitxategietatik (txt, csv) kargatzeko ardura duen klasea.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.KudeatuEmail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.KudeatuEmail.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA.KudeatuEmail",
+      "Summary": "<p sourcefile=\"api/SUPERMERKATUA.KudeatuEmail.yml\" sourcestartlinenumber=\"1\">Posta elektroniko bidezko jakinarazpenak eta fitxategiak bidaltzeko kudeatzailea.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.Produktua.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.Produktua.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA.Produktua",
+      "Summary": "<p sourcefile=\"api/SUPERMERKATUA.Produktua.yml\" sourcestartlinenumber=\"1\">Supermerkatuko produktu baten ezaugarriak (izena, kategoria, id) definitzen dituen klasea.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.Saltzailea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.Saltzailea.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA.Saltzailea",
+      "Summary": "<p sourcefile=\"api/SUPERMERKATUA.Saltzailea.yml\" sourcestartlinenumber=\"1\">Saltzailearen informazio pertsonala eta profesionala kudeatzen duen klasea.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.TIKETA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.TIKETA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA.TIKETA",
+      "Summary": "<p sourcefile=\"api/SUPERMERKATUA.TIKETA.yml\" sourcestartlinenumber=\"1\">Salmenta baten xehetasunak, erositako produktuak eta totala kudeatzen dituen klasea.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.XMLsortu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.XMLsortu.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA.XMLsortu",
+      "Summary": "<p sourcefile=\"api/SUPERMERKATUA.XMLsortu.yml\" sourcestartlinenumber=\"1\">Datuak (tiketak, salmentak) XML fitxategi formatuan esportatzeko eta egituratzeko klasea.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SUPERMERKATUA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SUPERMERKATUA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SUPERMERKATUA",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

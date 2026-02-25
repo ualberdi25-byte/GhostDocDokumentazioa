@@ -1,0 +1,57 @@
+{
+  "api/SUPERMERKATUA.ESTADISTIKAK.html": {
+    "href": "api/SUPERMERKATUA.ESTADISTIKAK.html",
+    "title": "Class ESTADISTIKAK | Dokumentazioa",
+    "summary": "Class ESTADISTIKAK Namespace SUPERMERKATUA Assembly SUPERMERKATUA.dll Salmenten datuak aztertu eta estatistikak (batez bestekoak, maximoak, minimoak) kalkulatzen dituen klasea. public class ESTADISTIKAK Inheritance object ESTADISTIKAK Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GehienSalduDenEguna(string) Salmenta bolumen handiena izan duen data kalkulatzen du. public static void GehienSalduDenEguna(string connectionString) Parameters connectionString string Datu basera konektatzeko katea. GehienSalduDenProduktua(string) Gehien saldu den produktua kalkulatzen du (kantitate totalaren arabera). public static void GehienSalduDenProduktua(string connectionString) Parameters connectionString string Datu basera konektatzeko katea. GehienSalduDuenSaltzailea(string) Diru gehien fakturatu duen saltzailea erakusten du. public static void GehienSalduDuenSaltzailea(string connectionString) Parameters connectionString string Datu basera konektatzeko katea. GutxienSalduDenProduktua(string) Gutxien saldu den produktua kalkulatzen du. public static void GutxienSalduDenProduktua(string connectionString) Parameters connectionString string Datu basera konektatzeko katea. GutxienSalduDuenSaltzailea(string) Diru gutxien fakturatu duen saltzailea erakusten du. public static void GutxienSalduDuenSaltzailea(string connectionString) Parameters connectionString string Datu basera konektatzeko katea. SaldutakoaSaltzaileko(string) Saltzaile bakoitzaren salmenta totalen zerrenda erakusten du. public static void SaldutakoaSaltzaileko(string connectionString) Parameters connectionString string Datu basera konektatzeko katea."
+  },
+  "api/SUPERMERKATUA.FitxategiaKargatu.html": {
+    "href": "api/SUPERMERKATUA.FitxategiaKargatu.html",
+    "title": "Class FitxategiaKargatu | Dokumentazioa",
+    "summary": "Class FitxategiaKargatu Namespace SUPERMERKATUA Assembly SUPERMERKATUA.dll Aplikazioaren hasierako datuak kanpoko fitxategietatik (txt, csv) kargatzeko ardura duen klasea. public class FitxategiaKargatu Inheritance object FitxategiaKargatu Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods DatuakInportatu(string) Fitxategiak irakurri, balidatu, datu basean sartu eta backup-a egiten du. public static void DatuakInportatu(string connectionString) Parameters connectionString string Datu basera konektatzeko katea."
+  },
+  "api/SUPERMERKATUA.KudeatuEmail.html": {
+    "href": "api/SUPERMERKATUA.KudeatuEmail.html",
+    "title": "Class KudeatuEmail | Dokumentazioa",
+    "summary": "Class KudeatuEmail Namespace SUPERMERKATUA Assembly SUPERMERKATUA.dll Posta elektroniko bidezko jakinarazpenak eta fitxategiak bidaltzeko kudeatzailea. public class KudeatuEmail Inheritance object KudeatuEmail Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Bidali(string) Gmail bidez mezu elektroniko bat bidaltzen du erantsitako fitxategiarekin. public static void Bidali(string adjuntoPath) Parameters adjuntoPath string Erantsi behar den fitxategiaren bidea."
+  },
+  "api/SUPERMERKATUA.Produktua.html": {
+    "href": "api/SUPERMERKATUA.Produktua.html",
+    "title": "Class Produktua | Dokumentazioa",
+    "summary": "Class Produktua Namespace SUPERMERKATUA Assembly SUPERMERKATUA.dll Supermerkatuko produktu baten ezaugarriak (izena, kategoria, id) definitzen dituen klasea. public class Produktua Inheritance object Produktua Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Produktua() Produktuaren instantzia berri bat sortzen du. public Produktua() Properties Id Produktuaren identifikazio zenbakia. public int Id { get; set; } Property Value int Izena Produktuaren izena. public string Izena { get; set; } Property Value string Kategoria Produktuaren kategoria (fruta, barazkia, etab.). public string Kategoria { get; set; } Property Value string"
+  },
+  "api/SUPERMERKATUA.Saltzailea.html": {
+    "href": "api/SUPERMERKATUA.Saltzailea.html",
+    "title": "Class Saltzailea | Dokumentazioa",
+    "summary": "Class Saltzailea Namespace SUPERMERKATUA Assembly SUPERMERKATUA.dll Saltzailearen informazio pertsonala eta profesionala kudeatzen duen klasea. public class Saltzailea Inheritance object Saltzailea Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Saltzailea() Saltzailearen instantzia berri bat sortzen du. public Saltzailea() Properties Id Saltzailearen identifikazio zenbakia. public int Id { get; set; } Property Value int Izena Saltzailearen izena. public string Izena { get; set; } Property Value string Nan Saltzailearen Nortasun Agiriaren Zenbakia (NAN). public string Nan { get; set; } Property Value string"
+  },
+  "api/SUPERMERKATUA.TIKETA.html": {
+    "href": "api/SUPERMERKATUA.TIKETA.html",
+    "title": "Class TIKETA | Dokumentazioa",
+    "summary": "Class TIKETA Namespace SUPERMERKATUA Assembly SUPERMERKATUA.dll Salmenta baten xehetasunak, erositako produktuak eta totala kudeatzen dituen klasea. public class TIKETA Inheritance object TIKETA Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TIKETA() Tiketa objektu berri bat sortzen du. public TIKETA() Properties Data Salmenta egin den data eta ordua. public DateTime Data { get; set; } Property Value DateTime Id Tiketaren identifikazio zenbakia. public int Id { get; set; } Property Value int IdProduktua Saldutako produktuaren IDa. public int IdProduktua { get; set; } Property Value int IdSaltzailea Salmenta egin duen saltzailearen IDa. public int IdSaltzailea { get; set; } Property Value int Kantitatea Saldutako kantitatea. public decimal Kantitatea { get; set; } Property Value decimal PrezioaKg Produktuaren prezioa kilogramoko. public decimal PrezioaKg { get; set; } Property Value decimal Totala Tiketaren prezio totala. public decimal Totala { get; set; } Property Value decimal"
+  },
+  "api/SUPERMERKATUA.XMLsortu.html": {
+    "href": "api/SUPERMERKATUA.XMLsortu.html",
+    "title": "Class XMLsortu | Dokumentazioa",
+    "summary": "Class XMLsortu Namespace SUPERMERKATUA Assembly SUPERMERKATUA.dll Datuak (tiketak, salmentak) XML fitxategi formatuan esportatzeko eta egituratzeko klasea. public class XMLsortu Inheritance object XMLsortu Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods SortuXML(List<TIKETA>) Emandako objektuen zerrenda XML fitxategi batean serializatzen (bihurtzen) du. public static string SortuXML(List<TIKETA> zerrenda) Parameters zerrenda List<TIKETA> Tiketen zerrenda. Returns string Sortutako fitxategiaren bidea (path)."
+  },
+  "api/SUPERMERKATUA.html": {
+    "href": "api/SUPERMERKATUA.html",
+    "title": "Namespace SUPERMERKATUA | Dokumentazioa",
+    "summary": "Namespace SUPERMERKATUA Classes ESTADISTIKAK Salmenten datuak aztertu eta estatistikak (batez bestekoak, maximoak, minimoak) kalkulatzen dituen klasea. FitxategiaKargatu Aplikazioaren hasierako datuak kanpoko fitxategietatik (txt, csv) kargatzeko ardura duen klasea. KudeatuEmail Posta elektroniko bidezko jakinarazpenak eta fitxategiak bidaltzeko kudeatzailea. Produktua Supermerkatuko produktu baten ezaugarriak (izena, kategoria, id) definitzen dituen klasea. Saltzailea Saltzailearen informazio pertsonala eta profesionala kudeatzen duen klasea. TIKETA Salmenta baten xehetasunak, erositako produktuak eta totala kudeatzen dituen klasea. XMLsortu Datuak (tiketak, salmentak) XML fitxategi formatuan esportatzeko eta egituratzeko klasea."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | Dokumentazioa",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | Dokumentazioa",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Dokumentazioa",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
